@@ -2,3 +2,7 @@
 *.lbl
 *.npy
 *.vts
+<<<<<<< HEAD
+=======
+/mola_data
+>>>>>>> 7ce6d6d (Project)
