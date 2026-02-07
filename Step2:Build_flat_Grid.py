@@ -1,7 +1,8 @@
 import numpy as np
 import pyvista as pv
+
 # Load data
-data = np.load("/home/system/Code/Mars Topography project/mola_elevation.npy")
+data = np.load("mola_elevation.npy")
 
 pixel_km = 3.705
 pixel_m  = 1000 * pixel_km

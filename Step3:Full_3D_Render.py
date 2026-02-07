@@ -3,7 +3,7 @@ import pyvista as pv
 import colorcet as cc
 
 # Load the structured grid
-grid = pv.read("/home/system/Code/Mars Topography project/mola_topology.vts")
+grid = pv.read("mola_topology.vts")
 
 # Store true elevation as an explicit scalar
 grid.point_data["elevation"]=grid.points[:,2]
